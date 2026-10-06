@@ -1,6 +1,6 @@
-# Skills and Plugins
+# Skills
 
-NorthQA standard AI skills and plugins for Claude Code and compatible agents.
+NorthQA standard AI skills for Claude Code and compatible agents.
 
 ## What is a skill?
 
@@ -29,7 +29,7 @@ Skills/
 
 ## Plugins
 
-No plugins have been added yet. Plugins will live alongside skills in this repository and be documented in this section.
+Plugins live in the separate [Plugins](../Plugins/README.md) folder. A plugin can bundle several skills together with commands, agents, hooks and MCP servers.
 
 ## Installing a skill
 

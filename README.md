@@ -6,7 +6,8 @@ NorthQA Standard AI Skills, Plugins, Connectors/Integrations
 
 | Path | Description |
 | --- | --- |
-| [Skills](Skills/README.md) | Standard AI skills and plugins, with installation and contribution notes. |
+| [Skills](Skills/README.md) | Standard AI skills, with installation and contribution notes. |
+| [Plugins](Plugins/README.md) | Claude Code plugins (skills, commands, agents, hooks, MCP), with layout and install notes. |
 
 ## Skills
 
@@ -18,7 +19,7 @@ See the [Skills README](Skills/README.md) for details.
 
 ## Plugins
 
-None yet. See the [Skills README](Skills/README.md#plugins).
+None yet. See the [Plugins README](Plugins/README.md).
 
 ## Connectors and Integrations
 
