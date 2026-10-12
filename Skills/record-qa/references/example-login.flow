@@ -1,0 +1,11 @@
+# Example flow: log in and land on the dashboard.
+# One agent-browser command per line. Secrets come from the environment as ${NAME}.
+# Run each line with: agent-browser --session <session> <line>
+
+open https://staging.example.com/login
+wait --text "Sign in"
+find label "Email" fill "${TEST_USER_EMAIL}"
+find label "Password" fill "${TEST_USER_PASSWORD}"
+find role button click --name "Sign in"
+wait --text "Dashboard"
+wait 1500
