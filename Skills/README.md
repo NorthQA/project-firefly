@@ -22,17 +22,12 @@ Skills/
 | [web-security](web-security/SKILL.md) | Web and API security against the OWASP Top 10:2025, OWASP API Security Top 10 and WSTG, plus secure design and least privilege. |
 | [qa-flow](qa-flow/SKILL.md) | Manual QA workflow from a ticket: generate test cases, get them reviewed, keep them as case files in the repo, run them in the test management tool, report on the ticket, and optionally automate them. |
 | [bug-digest](bug-digest/SKILL.md) | Weekly QA bug report: the owner's bugs by status, the QA queue, bugs from product feedback, and fixed bugs that still need automated tests. Drafted first, posted only after approval. |
-| [record-qa](record-qa/SKILL.md) | Records a browser QA check with [agent-browser](https://github.com/vercel-labs/agent-browser), captures page errors, console errors, failed requests and a video, and sorts them into app bug, environment and noise. |
 
 ### web-security references
 
 - [owasp-checklist.md](web-security/references/owasp-checklist.md)
 - [api-security-controls.md](web-security/references/api-security-controls.md)
 - [wstg-checklist.md](web-security/references/wstg-checklist.md)
-
-### record-qa references
-
-- [example-login.flow](record-qa/references/example-login.flow)
 
 ## Plugins
 
