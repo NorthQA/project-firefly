@@ -1,6 +1,6 @@
 ---
 name: bug-digest
-description: Use when asked for the weekly QA bug report or bug digest - "do the bug digest", "weekly bug report", "routine bug feedback for the channel", "what bugs did I file this week". Builds the report by querying the issue tracker directly, drafts it, and posts to the team channel only after a yes. Not for release triage of a single build and not for writing test cases (use qa-flow).
+description: Weekly QA bug report built straight from the issue tracker - the owner's bugs by status, the QA queue, bugs from product feedback, and fixed bugs that still need automated tests. Use when asked for the weekly QA bug report or bug digest - "do the bug digest", "weekly bug report", "routine bug feedback for the channel", "what bugs did I file this week". Drafts the report and posts to the team channel only after a yes. Not for release triage of a single build and not for writing test cases (use qa-flow).
 license: MIT
 compatibility: Portable Agent Skills spec. No harness-specific requirements.
 metadata:
@@ -12,7 +12,7 @@ metadata:
   portability: portable
 ---
 
-# Bug digest
+# Bug Digest
 
 A weekly report of the QA owner's bugs, the QA verification queue, bugs that
 came from product feedback, and fixed bugs that still need automated tests.

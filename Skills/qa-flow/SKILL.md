@@ -1,6 +1,6 @@
 ---
 name: qa-flow
-description: Use for the manual QA workflow from a ticket - generate test cases from the ticket, get them reviewed, keep them as case files in the repo, load them into the team's test management tool, run them there, report the result on the ticket, and optionally turn cases into automated end-to-end tests. Triggers - "qa this ticket", "write test cases for <ticket>", "/qa-flow <ticket>". Not for running a regression of existing automated tests and not for weekly bug reporting (use bug-digest).
+description: Manual QA workflow from a ticket - generate test cases from the ticket, get them reviewed, keep them as case files in the repo, load them into the team's test management tool, run them there, report the result on the ticket, and optionally turn cases into automated end-to-end tests. Use when asked to "qa this ticket", "write test cases for <ticket>", "/qa-flow <ticket>". Not for running a regression of existing automated tests and not for weekly bug reporting (use bug-digest).
 license: MIT
 compatibility: Portable Agent Skills spec. No harness-specific requirements.
 metadata:
@@ -12,7 +12,7 @@ metadata:
   portability: portable
 ---
 
-# QA flow
+# QA Flow
 
 Ticket → test cases → case file in the repo → test management tool →
 manual run → (optional) automated tests → run and report.
@@ -36,14 +36,14 @@ this skill). Ask once if one is missing.
 | Test helpers | the project's login, data-seeding and cleanup helpers |
 | Report wording | the verdict words the team uses on tickets |
 
-## Step 1: Fetch the ticket
+## 1. Fetch the ticket
 
 Ask for the ticket ID if it wasn't given. Read the title, description,
 acceptance criteria or QA steps, sub-tickets, and comments through the
 tracker's API or CLI. Keep the API key in an ignored env file and never
 print it. Show a short summary before going on.
 
-## Step 2: Generate test cases
+## 2. Generate test cases
 
 Write cases from the acceptance criteria and QA steps. This is also the file
 format:
@@ -72,7 +72,7 @@ Cover the happy path, each acceptance criterion, the obvious negative
 cases, and permissions (who must not see or do it). **Show the cases for
 review and wait for approval before writing anything.**
 
-## Step 3: Write the case file and load it
+## 3. Write the case file and load it
 
 1. Pick the area folder; ask if the ticket doesn't make it obvious.
    Environments are not folders; a run records its environment.
@@ -86,7 +86,7 @@ review and wait for approval before writing anything.**
    what will change. Loading the same content twice should change nothing.
 5. Commit the case file with the ticket's branch or on its own.
 
-## Step 4: Run the cases
+## 4. Run the cases
 
 Start a manual run in the test management tool, recording tester,
 environment and build. Mark each step pass / fail / blocked, attach evidence
@@ -95,7 +95,7 @@ where useful, and complete the run.
 Draft the result for the ticket (team's verdict wording, link to the run)
 and post it only after the person says yes.
 
-## Step 5: Automate (optional)
+## 5. Automate (optional)
 
 Decide per case: worth automating as a pull-request check, as a scheduled
 check against a hosted environment, kept manual, or not worth automating.
@@ -113,7 +113,7 @@ For an automated case, write `<automated test folder>/<area>/<name>.test.ts`
 - use the project's own login and seeding helpers rather than inventing new
   ones
 
-## Step 6: Run and report
+## 6. Run and report
 
 Run the new test file alone through the project's runner (for Playwright:
 `npx playwright test <file> --project=<project>`). Report pass / fail. On a
