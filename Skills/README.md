@@ -22,6 +22,7 @@ Skills/
 | [web-security](web-security/SKILL.md) | Web and API security against the OWASP Top 10:2025, OWASP API Security Top 10 and WSTG, plus secure design and least privilege. |
 | [qa-flow](qa-flow/SKILL.md) | Manual QA workflow from a ticket: generate test cases, get them reviewed, keep them as case files in the repo, run them in the test management tool, report on the ticket, and optionally automate them. |
 | [bug-digest](bug-digest/SKILL.md) | Weekly QA bug report: the owner's bugs by status, the QA queue, bugs from product feedback, and fixed bugs that still need automated tests. Drafted first, posted only after approval. |
+| [standup-generator-skill](standup-generator-skill/SKILL.md) | Daily standup from the issue tracker: tickets you moved (Done, sent back, Blocked) on anyone's board, tickets you filed, and your own open work and blockers. Drafts only, posts after approval. Apache-2.0, adapted from Anthropic's knowledge-work-plugins. |
 
 ### web-security references
 
