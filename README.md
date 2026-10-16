@@ -16,6 +16,7 @@ NorthQA Standard AI Skills, Plugins, Connectors/Integrations
 - **web-security**: OWASP and WSTG based security guidance for web apps and APIs.
 - **qa-flow**: manual QA from a ticket: test cases, review, case files, test runs, optional automation.
 - **bug-digest**: weekly QA bug report built straight from the issue tracker, posted after approval.
+- **standup-generator-skill**: daily standup built from the issue tracker, counting the tickets you moved, filed and own.
 
 See the [Skills README](Skills/README.md) for details.
 
@@ -29,4 +30,4 @@ None yet.
 
 ## License
 
-[MIT](LICENSE)
+[MIT](LICENSE), except where a skill folder has its own `LICENSE` (standup-generator-skill is Apache-2.0).
