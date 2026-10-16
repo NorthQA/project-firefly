@@ -12,6 +12,7 @@ NorthQA Standard AI Skills, Plugins, Connectors/Integrations
 ## Skills
 
 - **ai-coding-discipline**: rules for careful, reviewable code changes.
+- **qa-dev-workflow**: QA-first way to build and fix software: agreed "done", tests first, debugging from a reproduction, proof before claims.
 - **ui-design-guidelines**: produces a canonical design system file before frontend work.
 - **web-security**: OWASP and WSTG based security guidance for web apps and APIs.
 - **qa-flow**: manual QA from a ticket: test cases, review, case files, test runs, optional automation.
