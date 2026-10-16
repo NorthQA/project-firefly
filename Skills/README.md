@@ -18,6 +18,7 @@ Skills/
 | Skill | Purpose |
 | --- | --- |
 | [ai-coding-discipline](ai-coding-discipline/SKILL.md) | Working rules for careful code changes: think before modifying, keep it simple, make surgical changes, verify, keep diffs reviewable. |
+| [qa-dev-workflow](qa-dev-workflow/SKILL.md) | QA-first way to build and fix software: agree on acceptance criteria, plan in checkable steps, write the failing test first, debug from a reproduction, prove every claim with evidence, and review against the criteria. Process inspired by [obra/superpowers](https://github.com/obra/superpowers), rewritten with a QA focus. |
 | [ui-design-guidelines](ui-design-guidelines/SKILL.md) | Generates a single canonical `design_guidelines.json` (palette, typography, layout, motion) before any frontend code is written. |
 | [web-security](web-security/SKILL.md) | Web and API security against the OWASP Top 10:2025, OWASP API Security Top 10 and WSTG, plus secure design and least privilege. |
 | [qa-flow](qa-flow/SKILL.md) | Manual QA workflow from a ticket: generate test cases, get them reviewed, keep them as case files in the repo, run them in the test management tool, report on the ticket, and optionally automate them. |
