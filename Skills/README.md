@@ -24,6 +24,7 @@ Skills/
 | [qa-flow](qa-flow/SKILL.md) | Manual QA workflow from a ticket: generate test cases, get them reviewed, keep them as case files in the repo, run them in the test management tool, report on the ticket, and optionally automate them. |
 | [bug-digest](bug-digest/SKILL.md) | Weekly QA bug report: the owner's bugs by status, the QA queue, bugs from product feedback, and fixed bugs that still need automated tests. Drafted first, posted only after approval. |
 | [standup-generator-skill](standup-generator-skill/SKILL.md) | Daily standup from the issue tracker: tickets you moved (Done, sent back, Blocked) on anyone's board, tickets you filed, and your own open work and blockers. Drafts only, posts after approval. Apache-2.0, adapted from Anthropic's knowledge-work-plugins. |
+| [security-audit-skill](security-audit-skill/SKILL.md) | Source-first security audit: reconnaissance, coverage-led hunting, adversarial validation of every finding, and verified reports, with Node validators for the findings and coverage ledger. Guidance mode for questions, full audit mode on explicit request. By [Cloudflare](https://github.com/cloudflare/security-audit-skill), MIT. |
 
 ### web-security references
 

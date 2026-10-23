@@ -18,6 +18,7 @@ NorthQA Standard AI Skills, Plugins, Connectors/Integrations
 - **qa-flow**: manual QA from a ticket: test cases, review, case files, test runs, optional automation.
 - **bug-digest**: weekly QA bug report built straight from the issue tracker, posted after approval.
 - **standup-generator-skill**: daily standup built from the issue tracker, counting the tickets you moved, filed and own.
+- **security-audit-skill**: source-first security audit with adversarial validation and verified reports, by Cloudflare (MIT).
 
 See the [Skills README](Skills/README.md) for details.
 
@@ -31,4 +32,4 @@ None yet.
 
 ## License
 
-[MIT](LICENSE), except where a skill folder has its own `LICENSE` (standup-generator-skill is Apache-2.0).
+[MIT](LICENSE), except where a skill folder has its own `LICENSE` (standup-generator-skill is Apache-2.0; security-audit-skill is MIT, Copyright (c) 2025-2026 Cloudflare, Inc.).
