@@ -4,11 +4,9 @@ NorthQA Claude Code plugins. A plugin bundles skills, commands, agents, hooks an
 
 ## Available plugins
 
-None yet.
-
 | Plugin | Purpose |
 | --- | --- |
-| | |
+| [pr-review-kit](pr-review-kit/README.md) | PR review agent: reviews a pull request with the `pr-reviewer` and `pr-reviewer-spillwave` skills, posts a short GitHub review and the full report to Discord, plus a multi-PR batch summary. |
 
 ## Plugin layout
 

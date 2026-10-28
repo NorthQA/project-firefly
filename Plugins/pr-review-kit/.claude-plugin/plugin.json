@@ -1,0 +1,8 @@
+{
+  "name": "pr-review-kit",
+  "version": "1.1.0",
+  "description": "PR review agent with the pr-reviewer and pr-reviewer-spillwave skills, Discord posting and batch summaries.",
+  "author": {
+    "name": "0xLimerence"
+  }
+}
