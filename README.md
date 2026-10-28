@@ -24,7 +24,9 @@ See the [Skills README](Skills/README.md) for details.
 
 ## Plugins
 
-None yet. See the [Plugins README](Plugins/README.md).
+- **pr-review-kit**: PR review agent that posts a short GitHub review and the full report to Discord, plus multi-PR batch summaries.
+
+See the [Plugins README](Plugins/README.md).
 
 ## Connectors and Integrations
 
